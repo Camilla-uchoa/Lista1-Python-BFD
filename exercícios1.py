@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1wglxGCb9dSgJ69NzZrFiGnSVO9VeAJTY
 """
 
-'''Cálculo de IMC e quantidade de água recomendada'''
+#Cálculo de IMC e quantidade de água recomendada
 nome = input("Digite seu nome: ")
 numero = float(input("Digite seu número do WhatsApp: "))
 peso = float(input("Digite seu peso (em kg): "))
@@ -126,8 +126,6 @@ for i in range(1, 101):
 print(f'A soma dos números de 1 a 100 é: {soma}')
 
 #Exercício 13: Números pares até 20 (while) Mostre todos os números pares de 2 até 20 usando while
-
-#Exercício 13: Números pares até 20 (while) Mostre todos os números pares de 2 até 20 usando while
 numero = 2
 while numero <= 20:
   print(numero)
@@ -168,7 +166,6 @@ def palindromo(palavra):
     palavra = palavra.lower().replace(" ", "")
     return palavra == palavra[::-1]
 
-# Exemplo de uso
 print(palindromo("arara"))     # True
 print(palindromo("python"))    # False
 
